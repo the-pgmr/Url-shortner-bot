@@ -16,7 +16,7 @@
   </a>
 </p>	
 
-​	This bot will shorten any url with alias or it own. Just send a long url and get the shortened url..
+​	  This bot will shorten any url with alias or its own. Just send a long url and get the shortened url..
 
 ## Commands 
 
