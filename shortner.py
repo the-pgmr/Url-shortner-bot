@@ -8,8 +8,12 @@ bot = Client('url_bot',
 def start_command(client, message):
     greet_message = f"""
     hey {message.from_user.first_name} {emoji.SPARKLES} ,
-    just send me a link {emoji.LINK}{emoji.LINK} and get the shortend url
-    of the link {emoji.LINK}.
+    just send me a long url {emoji.LINK}{emoji.LINK} and get the shortened url
+    of the long url {emoji.LINK}.
+    
+    you can also use it inline by the entering a long url followed by 
+    the username of the bot.
+    use /alias and then a alias like (/alias shortner) in reply to a url
     """
     message.reply_text(greet_message)
 
